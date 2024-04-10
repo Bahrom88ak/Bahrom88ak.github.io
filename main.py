@@ -35,7 +35,7 @@ async def web_app(callback_query):
     await bot.send_message(callback_query.from_user.id, f""")
 {message}
 """)
-    await bot.send_message('-1002082001380', f"""
+    await bot.send_message('1051598724', f"""
 Новый Заказ
 {message}
 """)
