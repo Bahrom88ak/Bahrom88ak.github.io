@@ -13,7 +13,7 @@ dp = Dispatcher()
 @dp.message(Command('start'))
 async def start(message: types.Message, state: FSMContext):
     
-    item1 = KeyboardButton(text=" 🛍 Internet magazin", web_app=WebAppInfo(url="https://faberlic.com"))
+    item1 = KeyboardButton(text=" 🛍 Internet magazin", web_app=WebAppInfo(url="https://bahrom88ak.github.io/"))
     item2 = KeyboardButton(text="✍️ Uyda utirib ishlash uchun ariza yuborish", web_app=WebAppInfo(url="https://faberlic.com/"))
     item3 = KeyboardButton(text="🚀 Ishga kirganla uchun maxsus ilova", web_app=WebAppInfo(url="https://apps.rustore.ru/app/com.faberlic"))
     keyboard = ReplyKeyboardMarkup (keyboard=[[item1],[item2],[item3]], resize_keyboard=True)
