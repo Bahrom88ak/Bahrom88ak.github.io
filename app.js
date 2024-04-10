@@ -54,18 +54,18 @@ function calculateTotalPrice(){
 }
 
 document.getElementById("btn1").addEventListener("click", function(){
-    toggleItem(this, "item1", 1500);
+    toggleItem(this, "item1", 45000);
 });
 
 document.getElementById("btn2").addEventListener("click", function(){
-    toggleItem(this, "item2", 1500);
+    toggleItem(this, "item2", 45000);
 });
 
 document.getElementById("btn3").addEventListener("click", function(){
-    toggleItem(this, "item3", 1500);
+    toggleItem(this, "item3", 45000);
 });
 
 document.getElementById("btn4").addEventListener("click", function(){
-    toggleItem(this, "item4", 1500);
+    toggleItem(this, "item4", 45000);
 });
 
