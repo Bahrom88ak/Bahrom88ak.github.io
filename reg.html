@@ -17,7 +17,7 @@
     <link rel="shortcut icon" href="images/BOT uchun.png" type="image/png">
     <!-- <link rel="stylesheet" href="shop.css"> -->
 
-    <title>Ариза булими</title>
+    <title>Online | ISH</title>
 </head>
 
 <body>
@@ -49,10 +49,6 @@
 
                 <div class="row">
 
-                    <div class="info">
-
-                        <div class="sub-title"><a href="mailto:uzbekistannam2033@gmail.com"></a></div>
-                    </div>
                 </div>
             </div>
             </br></br>
@@ -62,16 +58,9 @@
 
             <form action=""  onsubmit=" return sender()">
                 <div class="fieled">
-                    <div class="field name">
-                        <select class="field name" for="company" type="text" name="company" id="company" required>
-                            <option value="Выбирите услуги">Иш турини танланг</option>
-                            <option>Системный администратор "DevOps"</option>
-                            <option>1C программа для склада</option>
-                        </select>
 
-                    </div>
                     <select class="field name" for="city" type="text" name="city" id="city" required>
-                        <option value="Выбирите свой город">Выбирите свой город</option>
+                        <option value="Выбирите свой город">Шахар танланг</option>
                         <option>Ташкентская область</option>
                         <option>Андижанская область</option>
                         <option>Наманганская область</option>
@@ -86,17 +75,31 @@
                         <option>Сырдарьинская область</option>
                         <option>Республика Каракалпакстан</option>
                     </select>
+                    <div class="field name">
+                        <select class="field name" for="company" type="text" name="company" id="company" required>
+                            <option value="Выбирите услуги">Иш турини танланг</option>
+                            <option>Алохида Сотувчи булиш</option>
+                            <option>Хамкор ишлаш</option>
+                        </select>
+
+                    </div>
+
 
                     <div class="field name">
                         <label for="tg"></label>
-                        <input type="text" name="tg" id="tg" placeholder="@Telegram" required="">
+                        <input type="text" name="tgg" id="tgg" placeholder="@Telegram" required="">
                         </input>
-
                     </div>
 
                     <div class="field name">
                         <label for="number"></label>
                         <input type="number" name="number" id="number" placeholder="+998" required="">
+                        </input>
+                    </div>
+
+                    <div class="field name">
+                        <label for="number">Тугилган сана</label>
+                        <input type="date" name="date" id="date" placeholder="" required="">
                         </input>
                     </div>
 
@@ -106,7 +109,7 @@
                     </div>
 
                     <div class="button">
-                        <button >Отправка</button>
+                        <button >Малумот юбориш</button>
                     </div>
 
 
@@ -119,12 +122,13 @@
         </div>
     </div>
 
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>
-    <script src="app.js"></script>
+    <!-- <script src="https://telegram.org/js/telegram-web-app.js"></script> -->
+    <!-- <script src="app.js"></script> -->
+    <script src="telegram.js"></script>
     <script src="portfolio.js"></script>
 
 
 </body>
-<script src="telegram.js"></script>
+
 
 </html>

@@ -4,10 +4,11 @@ var company, city, number, tg, message;
 var ready = function () {
     u_company = document.getElementById("company").value;
     u_city = document.getElementById("city").value;
-    tg = document.getElementById("tg").value;
+    tgg = document.getElementById("tgg").value;
+    data = document.getElementById("data").value;
     number = document.getElementById("number").value;
     message = document.getElementById("message").value;
-    message = "company: " + u_company + "\ncity: " + u_city + "\nnumber: " + number + "\nMessage: " + message + "\ntg: " + tg;
+    message = "company: " + u_company + "\ncity: " + u_city + "\nnumber: " + number + "\nMessage: " + message + "\ntgg: " + tgg + "\ndata: " + data;
 };
 var sender = function () {
     ready();
@@ -30,7 +31,8 @@ var sender = function () {
     });
     document.getElementById("company").value = "";
     document.getElementById("city").value = "";
-    document.getElementById("tg").value = "";
+    document.getElementById("data").value = "";
+    document.getElementById("tgg").value = "";
     document.getElementById("number").value = "";
     document.getElementById("message").value = "";
     return false;
