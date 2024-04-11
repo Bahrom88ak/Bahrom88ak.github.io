@@ -19,23 +19,22 @@ body{
 }
 
 .container{
-    /* justify-content: center;
-    max-width: 390px; */
+    
+    max-width: 390px;
+    text-align: center;
     grid: 10px 10;
-    gap: 10px 40px;
+    
 }
 
 .inner{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 200px 200px 200px;
-    grid-gap: 50px;
+    
 }
 
 .img{
     width: 150px;
-    height: 150px;
-    margin-bottom: -25px;
 }
 
 .item{
@@ -44,7 +43,7 @@ body{
 
 .btn{
     display: inline-block;
-    padding: 10px 10px;
+    padding: 10px 20px;
     border: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: rgb(248, 168, 24);
@@ -71,6 +70,8 @@ body{
     transition: background .2s linear;
 }
 
-
+.usercard {
+    text-align: center;
+}
 
 

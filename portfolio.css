@@ -23,6 +23,7 @@
     position: fixed;
     width: 100%;
     z-index: 999;
+    
     padding: 15px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
@@ -35,37 +36,11 @@
 } */
 
 
-
-
-.btn-cta {
-    display: block;
-    position: fixed;
-    grid-column-gap: 05px;
-    grid-row-gap: 10px;
-    background-color: lightblue;
-    color: var(--black);
-    border-style: solid;
-    border-width: 2px;
-    margin-left: 41px;
-    border-radius: 120px;
-    justify-content: space-around;
-    /* align-items: stretch; */
-    padding: .15rem 15px;
-    padding-left: -10px;
-    /* font-size: .9rem; */
-    font-weight: 1000px;
-    /* text-decoration: none; */
-    /* transition: all .3s; */
-    display: flex;
-    /* justify-content: space-between; */
-    /* align-content: center; */
-    /* flex-direction: row; */
-    flex-wrap: wrap;
-}
-
 .navbar.sticky {
+
+
     padding: 15px 0;
-    background: #ffffff;
+    background: rgb(71, 234, 234);;
 }
 
 .navbar .max-width {
